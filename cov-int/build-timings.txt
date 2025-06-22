@@ -1,0 +1,31 @@
+# Version: d59b675bea p-2024.6-push-53
+# Command Line: D:\FPT MATERIALS\Kì 5\SWT301\cov-analysis-win32-2024.6.1\cov-analysis-win32-2024.6.1\bin\cov-build.exe --dir cov-int mvn clean compile
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                              1125          1
+  create_or_open emit DB                  0          1
+    open emit DB                          0          1
+  add_string_to_table                     0          8
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0         81
+  Prepare capture                        78          1
+  Running build command                  94          1
+  generate_generic_compiler_map         281          1
+    handle_derived_compiler              31         16
+  SecurityDA                              0          1
+  (left over)                           672
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                              1125          1
+create_or_open emit DB                    0          1
+open emit DB                              0          1
+add_string_to_table                       0         89
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                          78          1
+Running build command                    94          1
+generate_generic_compiler_map           281          1
+handle_derived_compiler                  31         16
+SecurityDA                                0          1

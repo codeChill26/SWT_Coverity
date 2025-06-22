@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>1</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>D:\FPT MATERIALS\Kì 5\SWT301\cov-analysis-win32-2024.6.1\cov-analysis-win32-2024.6.1\bin\cov-build.exe --dir cov-int mvn clean compile</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>DESKTOP-6QL24QC</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win32</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 11 (Unknown Edition number 101), 64-bit (build 22631)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2024.6.1 (build d59b675bea p-2024.6-push-53)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>ADMIN</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>D:\FPT MATERIALS\Ki3\LAB211\Java</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>D:\FPT MATERIALS\Kì 5\SWT301\cov-analysis-win32-2024.6.1\cov-analysis-win32-2024.6.1\config\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>D:\FPT MATERIALS\Ki3\LAB211\Java\cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>D:\FPT MATERIALS\Ki3\LAB211\Java\cov-int\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>D:\FPT MATERIALS\Ki3\LAB211\Java\cov-int\emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>security-da-ms</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>mvn.cmd clean compile</value>
+    </metric>
+</metrics>
+</coverity>
